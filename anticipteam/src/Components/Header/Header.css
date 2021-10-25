@@ -1,0 +1,27 @@
+.container-navbar{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5em;
+      text-align: center;
+      color: white;
+      background:#2B2D42;
+      position: relative;
+      margin-left: 15%;
+      margin-right: 15%;
+      height: 70px;
+    
+      -webkit-border-bottom-right-radius: 40px;
+    -webkit-border-bottom-left-radius: 40px;
+    -moz-border-radius-bottomright: 40px;
+    -moz-border-radius-bottomleft: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;  
+}
+
+.logo{
+    height: 32.5%;
+ padding: 0.5rem 1.5rem;
+ height: 100%
+}
