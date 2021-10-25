@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import anticip from '../../assets/home.png'
 import './Header.css'
+import { FaArrowRight } from 'react-icons/fa';
 
 
 
@@ -32,7 +33,7 @@ export default function Headers() {
 
            </nav>
 
-           <button className='button'>Login</button>
+           <button className='button'>Login <FaArrowRight style={{color:'red',marginBottom:'-4px'}} /> </button>
 
         </div>
     )
