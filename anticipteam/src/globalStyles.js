@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 :root{
-   --background: #eff7f9;
+   --background: #edf2f4;
    --black:#0a0b10;
    --purple:#803bec;
    --pink:#e5a1f8;
@@ -58,7 +58,7 @@ html{
         outline: none;
     }
     img,svg{
-        width:100%;
+        width: auto;
         height:auto;
     }
 `;
