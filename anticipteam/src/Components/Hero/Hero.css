@@ -15,9 +15,37 @@
     color: #2B2D42;
     width: 50%;
     justify-content: space-evenly;
+    position: relative;
 
 }
 
+
+.hero__container--left__content{
+    top: 20%;
+    position: absolute;
+    left: 28%;
+    width: 100%;
+
+}
+
+.hero__container--left__content h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+
+.hero__container--btn{
+position: relative;
+top: 30%;
+border: #2B2D42;
+height: 100px;
+width: 100px;
+    border-radius: 53px;
+background: linear-gradient(145deg, #ffffff, #dddfe0);
+box-shadow:  9px 9px 19px #d1d3d4,
+-9px -9px 19px #ffffff;
+cursor: pointer;
+}
 
 
 
@@ -31,6 +59,6 @@
 .hero__container--img{
     width: 80%;
     position: absolute;
-    bottom: 8px;
+    bottom: 23px;
     
 }
