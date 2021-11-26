@@ -22,3 +22,27 @@ height: -webkit-fill-available;
 position: relative;
 right: 96px;
 }
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+
+    .container_wavyBack_right img{
+      display: none;
+      height: -webkit-fill-available;
+      position: relative;
+      right: 96px;
+      }
+
+      .container_wavyBack_right{
+        background: white;
+        height: 100%;
+        width: 50%;
+        display: none;
+      }
+
+
+}

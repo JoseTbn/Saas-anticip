@@ -32,7 +32,6 @@ export default function Footer() {
                     <li><img src={POM} alt="POM" /></li>
                     <li><img src={traxeo} alt="Treaxeo" /></li>
                     <li> <img  src={MediSpring} alt="" /> </li>
-                    <li><img src={upbots} alt="" /></li>
                     <li><img src={fichier8} alt="" /></li>
                     <li><img src={lizy} alt="" /></li>
                     <li><img src={skipr} alt="" /></li>
@@ -53,12 +52,17 @@ export default function Footer() {
     </div>
     <div className="button1">
       <div className="button_area">
-          <button>you are talent</button>
+          <button> <h2>You are Talent</h2>
+            </button>
+          <button className='reversed'> <strong> Go to your next mission </strong> </button>
       </div>
     </div>
     <div className="button2">
       <div className="button_area2">
-      <button>you are recruiter</button>
+      <button>  <h2> You are Company</h2></button>
+      <button className="reversed">
+        <strong> Discover your next talent</strong>
+      </button>
       </div>
     </div>
   </div>

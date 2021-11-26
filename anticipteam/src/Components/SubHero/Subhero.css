@@ -51,6 +51,7 @@ grid-area: svg;
       ". h1 ."
       ". . ."; 
     grid-area: subhero_title; 
+    color: #2B2D42;
   }
   h1 { grid-area: h1; }
   .block {

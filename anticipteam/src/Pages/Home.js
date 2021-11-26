@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Home.css";
 import svg2 from "../assets/ff2.svg";
+import redline from "../assets/My path.svg"
 
 export default function Home() {
   const [Class, setClass] = useState(false);
@@ -11,9 +12,11 @@ export default function Home() {
 
   return (
     <div className="container">
+      
       <div className="How-we-work">
         <h1>How we work?</h1>
       </div>
+
       <div className="card1">
         <h1 className="title">
           {" "}
@@ -30,6 +33,9 @@ IT, engineering or sales recruitment goals.
 We’ll take care of that. Happy to!{" "}
         </p>
       </div>
+
+  
+
       <div className="card2">
         <h1 className="title">
           
@@ -43,6 +49,8 @@ growth and they will be happy like fish in
 the water in your organisation fitting well
 with your culture.</p>
       </div>
+
+
       <div className="svg1">
         {" "}
         <img src={svg2} alt="" />{" "}

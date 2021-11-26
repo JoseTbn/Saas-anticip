@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
    --white:#fff;
    --nav:#35353f;
    --nav2:#3f3d56;
+   --darkblue:#2B2D42;
 }
 *,*::before,*::after{
     margin:0;

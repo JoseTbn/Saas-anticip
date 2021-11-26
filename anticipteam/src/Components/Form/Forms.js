@@ -1,7 +1,10 @@
 import React from 'react'
 import './Form.css'
 
+
 export default function Forms() {
+   
+    
     return (
         <form className="form__container">
       
@@ -20,7 +23,9 @@ account in the matching result.</p>
     </div>
  
  </div>
+ 
      
          </form>
     )
 }
+

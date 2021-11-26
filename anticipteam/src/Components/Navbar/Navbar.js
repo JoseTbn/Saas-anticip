@@ -28,7 +28,7 @@ export default function Headers() {
               navigate("/Ict");
             }}
           >
-            ICT Talents
+            Talents
           </li>
           <li
             onClick={() => {
